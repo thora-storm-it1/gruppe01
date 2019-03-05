@@ -1,7 +1,7 @@
 /*tekstfeltet - søkbar*/
 .search
 {
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	overflow: auto;
 	border-radius: 5px;
 }
@@ -25,7 +25,7 @@
 {
 	border: 0px;
 	background: none;
-	background-color: #000000;
+	background-color: lightseagreen;
 	color: #fff;
 	float: right;
 	padding: 10px;
