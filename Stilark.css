@@ -1,52 +1,35 @@
-@charset "utf-8";
-/* CSS Document */
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-body{
-  background: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
+/*tekstfeltet - søkbar*/
+.search
+{
+	border: 2px solid #000000;
+	overflow: auto;
+	border-radius: 5px;
 }
 
-.search {
-  width: 100%;
-  position: relative
+/*tekst i boks*/
+.search input[type="text"]
+{
+	border: 0px;
+	width: 67%;
+	padding: 10px 10px;
 }
 
-.searchTerm {
-  float: left;
-  width: 100%;
-  border: 3px solid #00B4CC;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px;
-  outline: none;
-  color: #9DBFAF;
+/*søk input*/
+.search input[type="text"]:focus
+{
+	outline: 0;
 }
 
-.searchTerm:focus{
-  color: #00B4CC;
-}
-
-.searchButton {
-  position: absolute;  
-  right: -50px;
-  width: 40px;
-  height: 36px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
-  text-align: center;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-/*Resize the wrap to see the search bar change!*/
-.wrap{
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/*Submit knapp*/
+.search input[type="submit"]
+{
+	border: 0px;
+	background: none;
+	background-color: #000000;
+	color: #fff;
+	float: right;
+	padding: 10px;
+	border-radius-top-right: 5px;
+	border-radius-bottom-right: 5px;
+        cursor:pointer;
 }
