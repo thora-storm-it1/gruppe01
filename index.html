@@ -2,40 +2,127 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Fifa database</title>
-	<link href="Stilark.css" rel="stylesheet">
-	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Fotballspillere</title>
+<link href="Stilark.css" rel="stylesheet"><!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
 </head>
-	
-	
-	
-<body> 
 
-	<h1>Fifa spiller stats</h1>
-	
-<!-- Søkbar -->
-<div class="search">
-				<form class="search-form">
-					<input type="text" placeholder="Søk etter fotballspillere">
-					<input type="submit" value="Søk">
-				</form>
-			</div>
-	<br>
-	<div class="Egenspiller">
-		
-	
-	</div>
-	
-	
-	    <!-- Footer med potensielle lenker til Github, face, twitter, instagram osv.... -->
-    <div class="footer">
-      <!-- footer har display:flex (altså er en flexbox) -->
-      <div> <a href="https://www.livet-ut.com/">Github</a><div><i class="fab fa-github-square" style="font-size:36px"></i></div></div>
-      <div>Facebook<div><i class="fab fa-facebook-square" style="font-size:36px"></i></div></div>
-      <div>Twitter<div><i class="fab fa-twitter-square" style="font-size:36px"></i></div></div>
-      <div>Instagram<div><i class="fab fa-instagram" style="font-size:36px"></i></div></div>
+<body>
+<div id="mainWrapper">
+  <header> 
+    <!-- This is the header content. It contains Logo and links -->
+    <div id="logo"> <!-- <img src="logoImage.png" alt="sample logo"> --> 
+      <!-- Company Logo text --> 
+      Logo </div>
+  </header>
+  
+  <div id="content">
+    <section class="sidebar"> 
+      <!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
+      <input type="text"  id="search" value="search">
+      <div id="menubar">
+        <nav class="menu">
+          <h2><!-- Title for menuset 1 -->Nasjonalitet </h2>
+          <hr>
+          <ul>
+            <!-- List of links under menuset 1 -->
+            <li><a href="#" title="Link">Link 1</a></li>
+            <li><a href="#" title="Link">Link 2</a></li>
+            <li><a href="#" title="Link">Link 3</a></li>
+            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="#"  title="Link">Link 4</a></li>
+          </ul>
+        </nav>
+        <nav class="menu">
+          <h2>Lag </h2>
+          <!-- Title for menuset 2 -->
+          <hr>
+          <ul>
+            <!--List of links under menuset 2 -->
+            <li><a href="#" title="Link">Link 1</a></li>
+            <li><a href="#" title="Link">Link 2</a></li>
+            <li><a href="#" title="Link">Link 3</a></li>
+            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="#" title="Link">Link 4</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="mainContent">
+      <div class="productRow"><!-- Each product row contains info of 3 elements -->
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img alt="sample" src="20801.png"></div>
+          <p class="price">$50</p>
+          <p class="productContent">Content holder </p>
+          <input type="button" name="button" value="Utforsk" class="utforskButton">
+        </article>
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
+          <p class="price">$50</p>
+          <p class="productContent">Content holder</p>
+          <input type="button" name="button" value="Utforsk" class="utforskButton">
+        </article>
+        <article class="productInfo"> <!-- Each individual product description -->
+          <div><img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
+          <p class="price">$50</p>
+          <p class="productContent">Content holder</p>
+          <input type="button" name="button" value="Utforsk" class="utforskButton">
+        </article>
+      </div>
+      <div class="productRow"> 
+        <!-- Each product row contains info of 3 elements -->
+        <article class="productInfo"> <!-- Each individual product description -->
+          <div><img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
+          <p class="price">$50</p>
+          <p class="productContent">Content holder</p>
+          <input type="button" name="button" value="Utforsk" class="utforskButton">
+        </article>
+        <article class="productInfo"> <!-- Each individual product description -->
+          <div><img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
+          <p class="price">$50</p>
+          <p class="productContent">Content holder</p>
+          <input type="button" name="button" value="utforsk" class="utforskButton">
+        </article>
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
+          <p class="price">$50</p>
+          <p class="productContent">Content holder</p>
+          <input type="button" name="button" value="utforsk" class="utforskButton">
+        </article>
+      </div>
+      <div class="productRow">
+        <article class="productInfo"> <!-- Each individual product description -->
+          <div><img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
+          <p class="price">$50</p>
+          <p class="productContent">Content holder</p>
+          <input type="button" name="button" value="utforsk" class="utforskButton">
+        </article>
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
+          <p class="price">$50</p>
+          <p class="productContent">Content holder</p>
+          <input type="button" name="button" value="utforsk" class="utforskButton">
+        </article>
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
+          <p class="price">$50</p>
+          <p class="productContent">Content holder</p>
+          <input type="button" name="button" value="utforsk" class="utforskButton">
+        </article>
+      </div>
+    </section>
+  </div>
+  <footer> 
+    <!-- This is the footer with default 3 divs -->
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius sem neque. Integer ornare.</p>
     </div>
-	
-	
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius sem neque. Integer ornare.</p>
+    </div>
+    <div class="footerlinks">
+      <p><a href="#" title="Link">Link 1 </a></p>
+      <p><a href="#" title="Link">Link 2</a></p>
+      <p><a href="#" title="Link">Link 3</a></p>
+    </div>
+  </footer>
+</div>
 </body>
 </html>
