@@ -51,10 +51,20 @@ h1 {
 
 .Egenspiller {
 		display: flex;
+	width: 50%;
 	justify-content: center;
+	height: 100px;
 	align-items: center;
 	border: 2px solid #FEFEFE;
 	padding: 10px;
 	border-radius-top-right: 5px;
 	border-radius-bottom-right: 5px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 200px;
+  align-items: center;
 }
