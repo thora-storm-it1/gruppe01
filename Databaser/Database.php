@@ -1,11 +1,4 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
 
-<body>
 	<?php
     // Vanlig setup for å skrive inn hostnavnet, brukernavn, databasenavn og passord
     $dbhost = "localhost";
@@ -25,5 +18,3 @@
       $likes = $row["likes"];
       $id = $row["id"];
 		?>
-</body>
-</html>
