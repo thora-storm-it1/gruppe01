@@ -79,7 +79,6 @@ header {
 	text-align: center;
 	color: rgba(208,207,207,1.00);
 	font-size: 14px;
-	;
 	margin-bottom: 21px;
 }
 /* Whole page content */
@@ -321,11 +320,6 @@ header #headerLinks a {
 /* Offer- Text banner */
 #mainWrapper #offer {
 	padding-left: 22%;
-}
-/* Paragraphs in footer */
-footer .footerlinks p {
-	display: inline;
-}
 }
 
 /*media query for small screen devices */
