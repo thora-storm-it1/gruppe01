@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* Global Styles */
+/* Globale uforminger */
 a:hover {
 	color: rgba(255,255,255,1.00);
 }
@@ -11,7 +11,7 @@ header {
 	font-style: normal;
 	font-weight: 400;
 }
-/* Logo placeholder*/
+/* Logo*/
 #logo {
 	float: left;
 	padding-top: 10px;
@@ -21,7 +21,7 @@ header {
 	color: rgba(255,255,255,1.00);
 	background-color: rgba(190,190,190,1.00);
 }
-/* div for Links in header */
+/* div, link i header */
 #headerLinks {
 	float: left;
 	width: calc( 100% - 139px );
@@ -30,7 +30,7 @@ header {
 	padding-bottom: 10px;
 	background-color: rgba(255,255,255,1.00);
 }
-/* Links in header */
+/* Link i header */
 #headerLinks a {
 	text-decoration: none;
 	color: rgba(146,146,146,1.00);
@@ -38,7 +38,7 @@ header {
 	font-size: 14px;
 }
 
-/* Main content of the site */
+/* Hovedinnhold av side */
 #content {
 	clear: both;
 	overflow: auto;
@@ -57,21 +57,21 @@ header {
 	padding-top: 36px;
 	height: 784px;
 }
-/* main content of the site */
-#content .mainContent {
+/* hovedinnhold på side */
+#content .hovedinnhold {
 	float: left;
 	width: 70%;
 	text-align: center;
 	padding-left: 4%;
 }
-/*menubar's properties for menus in sidebar */
+/*Menybar´s egenskapa i sidebar */
 #content .sidebar #menubar {
 	text-align: left;
 	color: rgba(146,146,146,1.00);
 	position: relative;
 	left: 0%;
 }
-/* Search field in sidebar */
+/* Søkfelt i sidebar */
 #content .sidebar #search {
 	width: 100%;
 	border-radius: 0px;
@@ -81,12 +81,12 @@ header {
 	font-size: 14px;
 	margin-bottom: 21px;
 }
-/* Whole page content */
+/* Hele side innhold */
 #mainWrapper {
 	width: 80%;
 	padding-left: 10%;
 }
-/*menu elements */
+/*meny elementer */
 .menu ul li {
 	list-style-type: none;
 	font-size: x-large;
@@ -94,28 +94,28 @@ header {
 	left: -35px;
 	padding-top: 12px;
 }
-/* Product rows for catalog */
-#content .mainContent .productRow {
+/* Spiller rad innhold */
+#content .hovedinnhold .spillerRad {
 	overflow: auto;
 	color: rgba(146,146,146,1.00);
 }
-/* Each product Information in the catalog */
-.mainContent .productRow .productInfo {
+/* Hvert produkt informasjon i katalog */
+.hovedinnhold .spillerRad .spillerInfo {
 	float: left;
 	padding-left: 5%;
 	padding-right: 5%;
 	width: 22%;
 }
-/* Prices of a products in catalog */
-.productRow .productInfo .price {
+/* Priser for spillere i katalog */
+.spillerRad .spillerInfo .pris {
 	font-family: 'Montserrat', sans-serif;
 	color: rgba(146,146,146,1.00);
 	font-size: 22px;
 	position: relative;
 	top: -20px;
 }
-/* Content holder for products in catalog*/
-.productRow .productInfo .productContent {
+/* Navn holder for spillere i katalog */
+.spillerRad .spillerInfo .spillerNavn {
 	position: relative;
 	top: -37px;
 	font-size: 14px;
@@ -125,8 +125,8 @@ header {
 	color: rgba(146,146,146,1.00);
 	white-space: pre-wrap;
 }
-/* Buy button for products in catalog */
-.productRow .productInfo .utforskButton {
+/* Utforsk knapp for spillere i katalogBuy button for products in catalog */
+.spillerRad .spillerInfo .utforskButton {
 	position: relative;
 	top: -48px;
 	width: 84%;
@@ -153,7 +153,7 @@ header {
 	padding-bottom: 22px;
 	padding-right: 22px;
 }
-/*Each footer content */
+/*Footer innhold */
 #mainWrapper footer div {
 	width: 27%;
 	float: left;
@@ -162,18 +162,12 @@ header {
 	color: rgba(255,255,255,1.00);
 	text-align: justify;
 }
-/* Links in footer */
-footer div a {
-	color: rgba(146,146,146,1.00);
-	display: block;
-	text-decoration: none;
-	text-align: center;
-}
-/* Product's images in catalog */
-.productInfo div img {
+
+/* Spillerbilder i katalog */
+.spillerInfo div img {
 	width: 100%;
 }
-/*Links in sidebar */
+/*Linker i sidebar */
 .sidebar #menubar .menu ul li a {
 	color: rgba(146,146,146,1.00);
 	text-decoration: none;
@@ -182,24 +176,24 @@ footer div a {
 	color: rgba(107,97,97,1.00);
 	text-decoration: none;
 }
-/* Menu headings in sidebar */
+/* Meny headings i sidebar */
 #menubar .menu h2 {
 	font-size: 14px;
 }
-/*Links under menus in sidebar */
+/*Linker under sidebar */
 #menubar .menu ul li a {
 	font-size: 14px;
 }
-/* Menus in sidebar */
+/* meny i sidebar */
 .sidebar #menubar .menu {
 	margin-bottom: 29px;
 }
-/* Container for links in footer */
+/* Innhold for links i footer */
 footer .footerlinks {
 	margin-top: -15px;
 }
 
-/* Media query for tablets */
+/* Media query for tabeller */
 @media screen and (max-width:700px) {
 /* search field in sidebar */
 #content .sidebar #search {
@@ -214,24 +208,24 @@ footer .footerlinks {
 	padding-left: 12%;
 	padding-top: 0px;
 }
-/* horizontal separators in sidebar */
+/* Horisontal oppdeling i sidebar */
 #content .sidebar hr {
 	display: none;
 }
-/*The sidebar and maincontent of page */
+/*The sidebar and hovedinnhold of page */
 #content {
 	position: relative;
 	top: -22px;
 	width: 100%;
 	overflow: hidden;
 }
-/*menu headings in sidebar */
+/*Meny header i sidebar */
 #menubar .menu h2 {
 	display: inline;
 	font-size: medium;
 	padding-right: 6%;
 }
-/* Unordered List of links */
+/* Uordnet liste av linker */
 #menubar .menu ul {
 	display: inline;
 }
@@ -242,18 +236,18 @@ footer .footerlinks {
 	padding-left: 0%;
 	padding-right: 3%;
 }
-/*The link to be hidden in tablet view */
+/* Skjul linker i mindre skjermstørrelser */
 .sidebar #menubar .menu ul .notimp {
 	display: none;
 }
-/* menus in sidebar */
+/* meny i sidebar */
 .sidebar #menubar .menu {
 	width: 100%;
 	text-align: center;
 	position: relative;
 	top: 16px;
 }
-/*menubar in sidebar */
+/*menybar i sidebar */
 #content .sidebar #menubar {
 	position: relative;
 	left: -7%;
@@ -261,29 +255,29 @@ footer .footerlinks {
 	width: 95%;
 	padding-top: 0px;
 }
-/* offer banners content */
+
 #mainWrapper #offer p {
 	font-size: small;
 }
-/* main content region of page */
-#mainWrapper #content .mainContent {
+/* main innhold */
+#mainWrapper #content .hovedinnhold {
 	overflow: hidden;
 	width: 95%;
 	margin-top: 40px;
 }
-/* Prices of products in catalog view */
-.productRow .productInfo .price {
+/* Pris på spiller i katalog */
+.spillerRad .spillerInfo .pris {
 	font-size: 19px;
 }
-/* Content holders in catalog view */
-.productRow .productInfo .productContent {
+/* Navn på spiller i katalog */
+.spillerRad .spillerInfo .spillerNavn {
 	font-size: 16px;
 }
-/* Buy buttons in catalog view */
-.productRow .productInfo .utforskButton {
+/* Utforsk knapp i katalog */
+.spillerRad .spillerInfo .utforskButton {
 	font-size: 15px;
 }
-/* Container for links in footer */
+/* Innhold for linker i footer */
 #mainWrapper footer .footerlinks {
 	float: none;
 	width: 100%;
@@ -294,13 +288,13 @@ footer .footerlinks {
 	left: 0%;
 	padding-bottom: 19px;
 }
-/* Container for each footer divisions */
+/* Container for innhold */
 #mainWrapper footer div {
 	width: 44%;
 	text-align: justify;
 	font-size: 15px;
 }
-/* Links in footer */
+/* Linker i footer */
 .footerlinks p a {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -312,17 +306,17 @@ footer .footerlinks {
 	padding-left: 16px;
 	overflow: hidden;
 }
-/* Links in header */
+/* Linker i header */
 header #headerLinks a {
 	padding-left: 0px;
 	padding-right: 30px;
 }
-/* Offer- Text banner */
+/* Main wrapper / offer */
 #mainWrapper #offer {
 	padding-left: 22%;
 }
 
-/*media query for small screen devices */
+/*media query for mindre størrelser på skjerm */
 @media screen and (max-width:480px) {
 /*Container for links in header */
 #mainWrapper header #headerLinks {
@@ -331,35 +325,35 @@ header #headerLinks a {
 	background-color: rgba(190,190,190,1.00);
 	padding-bottom: 21px;
 }
-/* Logo placeholder*/
+/* Logo */
 #mainWrapper header #logo {
 	width: 100%;
 	text-align: center;
 }
-/* Links in header */
+/* Linker i header */
 header #headerLinks a {
 	text-align: center;
 	padding-right: 15px;
 	padding-left: 0px;
 }
-/*Offer - Text Banner */
+/*Offer - Tekst Banner */
 #mainWrapper #offer {
 	padding-left: 0px;
 	text-align: center;
 }
-/* Menubar in sidebar */
+/* Menybar i sidebar */
 #content .sidebar #menubar {
 	position: relative;
 	left: -8%;
 	text-align: center;
 }
-/*Menu headings in sidebar */
+/*Meny overskirft i sidebar */
 #menubar .menu h2 {
 	width: 100%;
 	display: block;
 }
-/* Each product in catalog view */
-.mainContent .productRow .productInfo {
+/* Hver spiller i katalogen */
+.hovedinnhold .spillerRad .spillerInfo {
 	width: 100%;
 	display: block;
 	padding-left: 0px;
@@ -374,17 +368,17 @@ header #headerLinks a {
 	padding-bottom: 16px;
 	overflow: auto;
 }
-/* Unordered list for menu elements */
+/* Uordnet liste for menyelementer */
 .menu ul {
 	position: relative;
 	padding-left: 24%;
 }
-/* Container for links in footer */
+/* Innhold for linker i footer */
 #mainWrapper footer .footerlinks {
 	padding-left: 8%;
 }
-/* Main content which excludes the sidebar */
-#mainwrapper #content .mainContent {
+/* Hovedinnhold uten sidebar */
+#mainwrapper #content .hovedinnhold {
 	margin-top: -81px;
 	text-align: center;
 	width: 100%;
