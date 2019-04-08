@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* Globale uforminger */
+
+
+ /*Flere deler av CSS stylingen har blitt tatt fra dreamweaver som en forhåndsstruktur som vi har tatt inspirasjon fra */ 
+
+ .innpakning {
+	width: 83%;
+	padding-left: 7%;
+	 border: none;
+}
+
+ header {
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+
+ }
+/* Logo*/
+.logo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(190,190,190,1.00);
+}
+
+ .flex {
+	border: none;
+ 	margin-right: 75px;
+	margin-bottom: 12px;
+	padding: 0px;
+	 
+
+ }
+
+ .hovedinnhold {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ .spillerinfo {
+	padding: 10px;
+}
+
+ a:hover {
+	color: rgba(255,255,255,1.00);
+}
+
+ /* Knapp funnet på https://www.magnet4blogging.net/button-styles/ og så endret på */
+.knapp {
+	width: auto;
+	font-size: 13px;
+	color: #fff !important;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: rgba(190,190,190,1.00);
+	padding: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+
+ }
+
+.laglogo {
+	width: 50px;
+	height: 50px;
+padding-bottom: 30px;
+}
+
+.spillerbilde {
+	width: 200px;
+	height: 200px;
+}
+.knapp:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+ body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
+
+ table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+ table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+ table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+ table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+ table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+ @media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+   table caption {
+    font-size: 1.3em;
+  }
+
+   table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+   table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+   table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+
+   table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+   table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+ /* Hovedinnhold av side */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}
+/* Sidebar */
+#content .sidebar {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	float: left;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: rgba(246,246,246,1.00);
+	padding-top: 36px;
+	height: 784px;
+}
+
+ /*Menybar´s egenskapa i sidebar */
+#content .sidebar #menubar {
+	text-align: left;
+	color: rgba(146,146,146,1.00);
+	position: relative;
+	left: 0%;
+}
+
+ /*meny elementer */
+.menu ul li {
+	list-style-type: none;
+	font-size: x-large;
+	position: relative;
+	left: -35px;
+	padding-top: 12px;
+}
+
+
+ /*Linker i sidebar */
+.sidebar #menubar .menu ul li a {
+	color: rgba(146,146,146,1.00);
+	text-decoration: none;
+}
+
+ /* Meny headings i sidebar */
+#menubar .menu h2 {
+	font-size: 14px;
+}
+/*Linker under sidebar */
+#menubar .menu ul li a {
+	font-size: 14px;
+} 
+/* hovedinnhold på side */	
+ #content .hovedinnhold {	
+	float: left;	
+	width: 70%;	
+	text-align: center;	
+	padding-left: 4%;	
+}
+/* hovedinnhold på side */	
+ #content .hovedinnhold {	
+	float: left;	
+	width: 70%;	
+	text-align: center;	
+	padding-left: 4%;	
+}
+
+.logourl {
+	position: relative;
+	width: 100px;
+}
+	
+
+.spillerNavn {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: rgba(146,146,146,1.00);
+	font-size: 22px;
+	position: relative;
+}
+
+.utforskKnapp {
+	position: relative;
+	top: -30px;
+	width: 84%;
+	color: rgba(255,255,255,1.00);
+	height: 35px;
+	background-color: rgba(208,207,207,1.00);
+	border-style: none;
+	font-size: 14;
+	text-transform: uppercase;
+	margin-top: 8px;
+	
+}
+/* hovedinnhold på side */	
+ #content .hovedinnhold {	
+	float: left;	
+	width: 70%;	
+	text-align: center;	
+	padding-left: 4%;	
+}
